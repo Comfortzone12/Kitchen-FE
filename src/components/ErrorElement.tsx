@@ -22,7 +22,7 @@ function ErrorElement() {
         </div>
         <h1 className="text-2xl font-bold text-gray-800">Something Went Wrong</h1>
         <p className="text-gray-600 mt-2">
-          We’re sorry for the inconvenience. Please try again later or contact
+          We're sorry for the inconvenience. Please try again later or contact
           support if the issue persists.
         </p>
         <button

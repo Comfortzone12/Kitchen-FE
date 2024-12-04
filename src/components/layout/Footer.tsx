@@ -1,4 +1,4 @@
-import React from 'react';
+import logo from "../../images/logo.jpeg"
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Utensils } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -9,20 +9,20 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Utensils className="text-blue-500" size={32} />
+              <img src={logo} alt="logo"  width={40}/>
               <span className="text-2xl font-bold text-white">ComfortZone</span>
             </div>
             <p className="mb-4">
               Your trusted partner in commercial kitchen solutions. Quality, innovation, and reliability since 2005.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+              <a href="#" className="text-gray-400 hover:text-green-500 transition">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+              <a href="#" className="text-gray-400 hover:text-green-500 transition">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+              <a href="#" className="text-gray-400 hover:text-green-500 transition">
                 <Instagram size={20} />
               </a>
             </div>
@@ -31,10 +31,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/about" className="hover:text-blue-500 transition">About Us</Link></li>
-              {/* <li><Link to="/services" className="hover:text-blue-500 transition">Services</Link></li>
-              <li><Link to="/portfolio" className="hover:text-blue-500 transition">Projects</Link></li> */}
-              <li><Link to="/contact" className="hover:text-blue-500 transition">Contact</Link></li>
+              <li><Link to="/about" className="hover:text-green-500 transition">About Us</Link></li>
+              {/* <li><Link to="/services" className="hover:text-green-500 transition">Services</Link></li>
+              <li><Link to="/portfolio" className="hover:text-green-500 transition">Projects</Link></li> */}
+              <li><Link to="/contact" className="hover:text-green-500 transition">Contact</Link></li>
             </ul>
           </div>
 
@@ -42,15 +42,15 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white mb-4">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-center">
-                <MapPin size={40} className="mr-2 text-blue-500" />
+                <MapPin size={40} className="mr-2 text-green-500" />
                 17, Moti Nagar, DLE industrial Area, Kirti Nagar, New Delhi, 110059
               </li>
               <li className="flex items-center">
-                <Phone size={20} className="mr-2 text-blue-500" />
+                <Phone size={20} className="mr-2 text-green-500" />
                 +91 9266665626
               </li>
               <li className="flex items-center">
-                <Mail size={20} className="mr-2 text-blue-500" />
+                <Mail size={20} className="mr-2 text-green-500" />
                 Comfortzone5625@gmail.com
               </li>
             </ul>

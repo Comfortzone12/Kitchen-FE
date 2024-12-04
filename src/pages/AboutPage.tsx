@@ -3,17 +3,17 @@ import { Award, Leaf, Target } from 'lucide-react';
 
 const values = [
   {
-    icon: <Award className="w-8 h-8 text-blue-600 mb-4" />,
+    icon: <Award className="w-8 h-8 text-green-600 mb-4" />,
     title: 'Excellence',
     description: 'Maintaining the highest standards in everything we do.'
   },
   {
-    icon: <Leaf className="w-8 h-8 text-blue-600 mb-4" />,
-    title: 'Sustainability',
+    icon: <Leaf className="w-8 h-8 text-green-600 mb-4" />,
+    title: 'Sustainability', 
     description: 'Committed to environmental responsibility in all our operations.'
   },
   {
-    icon: <Target className="w-8 h-8 text-blue-600 mb-4" />,
+    icon: <Target className="w-8 h-8 text-green-600 mb-4" />,
     title: 'Innovation',
     description: 'Constantly pushing boundaries to deliver cutting-edge solutions.'
   }
@@ -43,7 +43,7 @@ const AboutPage = () => {
            Our modular air handling units, built with robust designs and high-quality components, meet stringent project requirements and deliver outstanding energy performance. Committed to environmental responsibility, Comfortzone partners with architects, designers, and stakeholders to support green building goals, offering solutions that prioritize longevity, sustainability, and reduced lifecycle costs.
 
 
-Let’s build your perfect kitchen together.
+Let's build your perfect kitchen together.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ Let’s build your perfect kitchen together.
             {values.map((value, index) => (
               <div key={index} className="text-center">
                 {value.icon}
-                <h3 className="text-xl font-semibold text-blue-600 mb-3">{value.title}</h3>
+                <h3 className="text-xl font-semibold text-green-600 mb-3">{value.title}</h3>
                 <p className="text-gray-600">{value.description}</p>
               </div>
             ))}

@@ -21,7 +21,7 @@ const Header = () => {
             <NavLinks />
             <Link
               to="/contact"
-              className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+              className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition"
             >
               Get a Quote
             </Link>
@@ -42,7 +42,7 @@ const Header = () => {
             <NavLinks mobile />
             <Link
               to="/contact"
-              className="block w-full bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition mt-4 text-center"
+              className="block w-full bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition mt-4 text-center"
             >
               Get a Quote
             </Link>
@@ -62,7 +62,7 @@ const NavLinks = ({ mobile }: { mobile?: boolean }) => {
   const getLinkClass = (path: string) => {
     const baseClass = "transition";
     const isActive = location.pathname === path;
-    return `${baseClass} ${isActive ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`;
+    return `${baseClass} ${isActive ? 'text-green-600 font-semibold' : 'text-gray-700 hover:text-green-600'}`;
   };
 
   return (
