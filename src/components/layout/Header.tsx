@@ -1,7 +1,7 @@
-import React from 'react';
 import { Menu, X, ChevronDown, Utensils } from 'lucide-react';
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from "../../images/logo.jpeg"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Utensils className="text-blue-600" size={32} />
+            <img src={logo} alt="Logo" width={40} />
             <span className="text-2xl font-bold text-gray-900">ComfortZone</span>
           </Link>
           
