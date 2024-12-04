@@ -128,7 +128,7 @@ const ContactPage = () => {
                     id="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className={`w-full px-4 py-2 border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500`}
+                    className={`w-full px-4 py-2 border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500`}
                     placeholder="John Doe"
                     required
                   />
@@ -143,7 +143,7 @@ const ContactPage = () => {
                     id="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className={`w-full px-4 py-2 border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500`}
+                    className={`w-full px-4 py-2 border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500`}
                     placeholder="john@example.com"
                     required
                   />
@@ -158,7 +158,7 @@ const ContactPage = () => {
                     id="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className={`w-full px-4 py-2 border ${errors.phone ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500`}
+                    className={`w-full px-4 py-2 border ${errors.phone ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500`}
                     placeholder="9999999999"
                     required
                   />
@@ -173,7 +173,7 @@ const ContactPage = () => {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className={`w-full px-4 py-2 border ${errors.message ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500`}
+                    className={`w-full px-4 py-2 border ${errors.message ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500`}
                     placeholder="Your message..."
                     required
                   ></textarea>
@@ -182,7 +182,7 @@ const ContactPage = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className={`w-full bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+                  className={`w-full bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
                 >
                   {loading ? 'Sending...' : 'Send Message'}
                 </button>
@@ -195,21 +195,21 @@ const ContactPage = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <MapPin className="text-blue-600 mr-4 mt-1" />
+                  <MapPin className="text-green-600 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Address</h3>
                     <p className="text-gray-600">17, Moti Nagar, DLE industrial Area, Kirti Nagar, New Delhi, 110059</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Phone className="text-blue-600 mr-4 mt-1" />
+                  <Phone className="text-green-600 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
                     <p className="text-gray-600">+91 9266665626</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Mail className="text-blue-600 mr-4 mt-1" />
+                  <Mail className="text-green-600 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
                     <p className="text-gray-600">Comfortzone5625@gmail.com</p>

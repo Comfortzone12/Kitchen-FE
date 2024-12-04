@@ -40,7 +40,7 @@ const Services = () => {
               key={index}
               className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition"
             >
-              <div className="text-amber-700 mb-4">{service.icon}</div>
+              <div className="text-green-700 mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
               <p className="text-gray-600">{service.description}</p>
             </div>

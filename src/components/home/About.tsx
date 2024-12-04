@@ -46,7 +46,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-blue-600 flex justify-center mb-2">
+                  <div className="text-green-600 flex justify-center mb-2">
                     {stat.icon}
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">{stat.value}</h3>

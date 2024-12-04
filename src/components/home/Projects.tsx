@@ -4,7 +4,7 @@ import mall from "../../images/mall.jpg"
 const projects = [
   {
     title: 'Luxury Hotel Kitchen',
-    location: 'Grand Plaza Hotel',
+    location: 'Grand Plaza Hotel', 
     image: hotelK,
   },
   {

@@ -24,22 +24,22 @@ const Hero = () => {
               ComfortZone delivers excellence in commercial kitchen design, manufacturing, and installation for restaurants, hotels, and food courts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Link to="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition text-center">
+              <Link to="/contact" className="bg-green-600 text-white px-8 py-3 rounded-md hover:bg-green-700 transition text-center">
                 Request Consultation
               </Link>
              
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="flex items-center space-x-3 text-white">
-                <ChefHat size={24} className="text-blue-400" />
+                <ChefHat size={24} className="text-green-400" />
                 <span>Expert Design</span>
               </div>
               <div className="flex items-center space-x-3 text-white">
-                <Award size={24} className="text-blue-400" />
+                <Award size={24} className="text-green-400" />
                 <span>Quality Assured</span>
               </div>
               <div className="flex items-center space-x-3 text-white">
-                <Clock size={24} className="text-blue-400" />
+                <Clock size={24} className="text-green-400" />
                 <span>Timely Delivery</span>
               </div>
             </div>
