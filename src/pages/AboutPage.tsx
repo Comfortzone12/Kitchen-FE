@@ -36,13 +36,12 @@ const AboutPage = () => {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h2>
             <p className="text-gray-600 mb-6">
-            At ComfortZone, we specialize in creating exceptional commercial kitchen solutions tailored to meet the unique needs of your business. From our humble beginnings as a small kitchen equipment supplier, we have grown into a trusted leader in the industry.
-
-Our journey has been defined by innovation, attention to detail, and an unwavering commitment to quality. We understand the importance of designing and fitting efficient, high-performance kitchens that elevate functionality and style.
+           At Comfortzone, we take pride in being a leading manufacturer of energy-efficient HVAC solutions designed to meet the demands of environmentally responsible buildings. Our air handling units are engineered to deliver superior performance, reduce power consumption, and support green building initiatives. With expertise in designing and maintaining custom solutions for industries such as healthcare, pharmaceuticals, and hospitality, we are dedicated to providing reliable systems that contribute to a sustainable future while ensuring comfort and efficiency.
             </p>
             <p className="text-gray-600">
 
-            Today, we proudly serve clients nationwide, working with skilled professionals who share our passion for crafting seamless and reliable kitchen spaces. From concept to installation, ComfortZone is your trusted partner in delivering the ultimate commercial kitchen experience.
+           Our modular air handling units, built with robust designs and high-quality components, meet stringent project requirements and deliver outstanding energy performance. Committed to environmental responsibility, Comfortzone partners with architects, designers, and stakeholders to support green building goals, offering solutions that prioritize longevity, sustainability, and reduced lifecycle costs.
+
 
 Let’s build your perfect kitchen together.
             </p>
