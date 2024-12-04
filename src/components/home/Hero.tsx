@@ -27,6 +27,9 @@ const Hero = () => {
               <Link to="/contact" className="bg-green-600 text-white px-8 py-3 rounded-md hover:bg-green-700 transition text-center">
                 Request Consultation
               </Link>
+              <a href="https://drive.google.com/file/d/1mZgYerCaBSiRqBwdIkZIwDAMmTtSnZFI/view?usp=sharing" target='_blank' className="bg-transparent border-2 border-green-600 text-white px-8 py-3 rounded-md hover:bg-green-600 transition text-center">
+                Our products
+              </a>
              
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

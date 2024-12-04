@@ -16,13 +16,10 @@ const Footer = () => {
               Your trusted partner in commercial kitchen solutions. Quality, innovation, and reliability since 2005.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-green-500 transition">
+              <a href="https://www.facebook.com/profile.php?id=100075993454437&mibextid=ZbWKwL" target="_blank" className="text-gray-400 hover:text-green-500 transition">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-green-500 transition">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-green-500 transition">
+              <a href="https://www.instagram.com/comfo_rtzone5625?igsh=c3Z4ODB4MDN6bTRx" target="_blank" className="text-gray-400 hover:text-green-500 transition">
                 <Instagram size={20} />
               </a>
             </div>

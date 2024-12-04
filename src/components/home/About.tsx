@@ -1,4 +1,4 @@
-import React from 'react';
+import show from '../../images/show.jpeg';
 import { Users, ThumbsUp, Timer, Wrench } from 'lucide-react';
 
 const stats = [
@@ -31,7 +31,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1590534247854-e97d5e3feef6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              src={show}
               alt="ComfortZone kitchen installation"
               className="rounded-lg shadow-lg"
             />
